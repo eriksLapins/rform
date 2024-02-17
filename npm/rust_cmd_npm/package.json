@@ -1,7 +1,7 @@
 {
-  "name": "rform",
+  "name": "rust_cmd_npm",
   "version": "1.0.0",
-  "description": "a package that allows to create, submit, and check errors in forms",
+  "description": "a package is a template for when you would like to create a rust app that can be used as a command line app in node/javascript projects",
   "main": "index.js",
   "author": "Eriks Lapins",
   "license": "MIT",
@@ -19,11 +19,11 @@
     "typescript": "^5.3.3"
   },
   "optionalDependencies": {
-	  "rform-linux-x64": "1.0.0",
-	  "rform-linux-arm64": "1.0.0",
-	  "rform-darwin-x64": "1.0.0",
-	  "rform-darwin-arm64": "1.0.0",
-	  "rform-windows-x64": "1.0.0",
-	  "rform-windows-arm64": "1.0.0"
+	  "rust_cmd_npm-linux-x64": "1.0.0",
+	  "rust_cmd_npm-linux-arm64": "1.0.0",
+	  "rust_cmd_npm-darwin-x64": "1.0.0",
+	  "rust_cmd_npm-darwin-arm64": "1.0.0",
+	  "rust_cmd_npm-windows-x64": "1.0.0",
+	  "rust_cmd_npm-windows-arm64": "1.0.0"
   }
 }

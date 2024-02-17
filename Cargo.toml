@@ -1,5 +1,5 @@
 [package]
-name = "rform"
+name = "rust_cmd_npm"
 version = "0.1.0"
 edition = "2021"
 
