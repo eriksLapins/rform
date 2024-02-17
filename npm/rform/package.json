@@ -1,0 +1,29 @@
+{
+  "name": "rform",
+  "version": "1.0.0",
+  "description": "a package that allows to create, submit, and check errors in forms",
+  "main": "index.js",
+  "author": "Eriks Lapins",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+	  "typecheck": "tsc --noEmit",
+	  "lint": "oxlint .",
+	  "lint:fix": "oxlint . --fix",
+	  "build": "tsc",
+	  "dev": "yarn build && node lib/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "oxlint": "^0.2.8",
+    "typescript": "^5.3.3"
+  },
+  "optionalDependencies": {
+	  "rform-linux-x64": "1.0.0",
+	  "rform-linux-arm64": "1.0.0",
+	  "rform-darwin-x64": "1.0.0",
+	  "rform-darwin-arm64": "1.0.0",
+	  "rform-windows-x64": "1.0.0",
+	  "rform-windows-arm64": "1.0.0"
+  }
+}
